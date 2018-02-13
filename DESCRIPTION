@@ -1,0 +1,21 @@
+Package: RnBeadsAnnotationCreator
+Title: RnBeads annotation creator
+Description: Package for creating RnBeads annotation packages.
+Authors@R: c(
+    person("Yassen", "Assenov", email = "yassen@mpi-inf.mpg.de",
+    role = c("aut")),
+    person("Pavlo", "Lutsik", email = "p.lutsik@mx.uni-saarland.de",
+    role = c("aut")),
+    person("Fabian", "Mueller", email = "fmueller@mpi-inf.mpg.de",
+    role = c("aut", "cre")))
+Date: 2015-02-13
+Suggests:
+    biomaRt,
+    knitr
+Depends:
+    doParallel,
+    RnBeads
+License: GPL-3
+Version: 0.99.0
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
